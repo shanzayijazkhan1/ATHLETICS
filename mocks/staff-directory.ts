@@ -1,7 +1,7 @@
 import { TeamMember } from '@/types';
 
 export const staffDirectory: TeamMember[] = [
-  // Marketing and Fan Experience Team
+  // Marketing and Fan Experience Team 
   {
     id: '1',
     name: 'Nina Goodhue',
