@@ -1,13 +1,12 @@
 {
-  "name": "expo-app",
+  "name": "athletics-app",
   "version": "1.0.0",
-  "main": "expo-router/entry",
+  "main": "index.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "lint": "expo lint"
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
@@ -54,9 +53,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
-    "@expo/cli": "^0.18.0",
-    "@expo/ngrok": "^4.1.0",
-    "@types/react": "~18.2.0",
     "eslint": "^9.31.0",
     "eslint-config-expo": "^9.2.0",
     "typescript": "~5.8.3"
